@@ -1,0 +1,18 @@
+body{
+    background-image: url("../img/aboutUs1.webp");
+}
+
+#logIn-cont{
+    width: 35vw;
+    
+}
+.navbar{
+    background-color: #1E5128;
+}
+.container{
+ 
+   
+    font-size:20px ;
+    font-family:'SoDoSans','Helvetica Neue',Helvetica,Arial,sans-serif;
+     
+  }

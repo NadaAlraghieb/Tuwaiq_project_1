@@ -1,0 +1,11 @@
+body{
+    background-image: url("img/aboutUs1.webp");
+}
+.navbar{
+    background-color: #1E5128;
+}
+
+.container{
+    margin-top: 50px;
+    padding-top: 50px;
+}
