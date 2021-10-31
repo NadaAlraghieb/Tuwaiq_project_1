@@ -1,13 +1,33 @@
 .body{
- background-color:#66947e;
+ background-color: #87A96B;
+ 
+ 
 
 
 
 }
-.nav{
-  background-color:#4c796c
+/*for navbar*/
 
-  ;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+/*logo*/
+#image{
+  margin-top: 20px;
+  height:80px;
+   width:70px;
+}
+/*button login in navbar*/
+#butLogin{
+  margin-left: 60px;
+}
+.nav{
+  background-color:white;
+
+ 
   padding-bottom:auto;
   
   
@@ -39,10 +59,40 @@
   margin-bottom:100px;
   margin-top: 100px;
 }
+#picA{
+ display: flexbox;
+ 
+  
+}
+#picB{
+  display: flexbox;
+  height:100%;
+  
+}
+#picC{
+  display: flexbox;
+ 
+  
+}
+/*story card */
 .card-body{
   text-align: center;
-  margin-top: 130px;
+  margin-top: 140px;
   
+}
+/* three cards in homePage  */
+#headA{
+  margin-top: 20px;
+}
+#headC{
+  margin-top: 50px;
+}
+/* tow section in footer */
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+#prA{
+  text-align: center;
 }
 ul
 {
@@ -53,6 +103,7 @@ ul
 li{
   color: black;
 }
+/* background for navbar for every pages */
 .nav-b{
   background-color: white;
   padding-bottom: 0px;
@@ -66,6 +117,8 @@ li{
 form{
   padding-top: 50px;
 }
+
+/* background for login page */
 .login{
   background-image: url('../img/aboutUs1.webp');
 }
@@ -282,4 +335,25 @@ ul {
 {
   color:black;
   font-size: large;
+}
+
+.cardA{
+  margin: 50px;
+  background-color: white;
+}
+/*for view product*/
+#view{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 25rem;
+   background-color:white; 
+}
+.bodyA{
+  background-image:url("../img/aboutUs1.webp");
+}
+/* for recipe page */
+.bodyB{
+  background-image: url("../img/coo11.jpg");
 }

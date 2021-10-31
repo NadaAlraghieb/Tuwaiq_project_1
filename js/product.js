@@ -1,48 +1,63 @@
 //for button view file product.html
 
 let product=[{
+    title:'Starbucks® Caffè Verona™',
     price:'25$',
     img:'prodect1.png',
-    description:''
+    description:'The roasty sweet with dark cocoa notes of this blend, make this well-balanced and rich cup of coffee. '
 },
 {
+    title:'Starbucks Blonde® Espresso Roast',
     price:'20$',
     img:'product2.webp',
-    description:''  
+    description:'Savour a Latin American coffee with a bold but mellow flavour and sweet, vibrant notes. Enjoy our lighest espresso roast coffee at home.'   
+
 },
 {
+    title:'Starbucks® Caffè Verona™',
     price:'20$',
     img:'product3.png',
-    description:''   
+    description:'The roasty sweet with dark cocoa notes of this blend, make this well-balanced and rich cup of coffee. '  
 },
 {
+    title:'Starbucks® House Blend',
     price:'20$',
     img:'product4.png',
-    description:''  
+    description:'This Latin American coffee is loaded with flavour, balancing tastes of nut and cocoa with just a touch of sweetness brought out by the roast. '  
 },
 
 {
+    title:'Starbucks Veranda Blend™',
     price:'20$',
     img:'product5.png',
-    description:''  
+    description:'Help yourself to a lightly roasted Latin American coffee that’s mellow and flavourfully soft.'  
 },
-{price:'20$',
-    img:'product6.png',
-    description:'' },
 {
+    title:'Starbucks® Toffee Nut Latte',
+    price:'20$',
+    img:'product6.png',
+    description:'We bring you a deliciously special blend with dairy milk and the rich, buttery taste of sweet toffee and toasted nuts, topped with a soft layer of foam.' 
+},
+{
+    title:'Starbucks® Espresso Roast',
     price:'20$',
     img:'product7.webp',
-    description:''  
+    description:'A delicious blend of Latin American and Asia/Pacific coffees, this espresso has a rich and caramelly sweetness and is at the heart of our handcrafted latte.'  
 },
 {
+    title:'Starbucks Blonde® Espresso Roast',
     price:'20$',
-    img:'product2.png',
-    description:''  
+    img:'product2.webp',
+    description:'Savour a Latin American coffee with a bold but mellow flavour and sweet, vibrant notes. Enjoy our lighest espresso roast coffee at home.'   
+
 },
+
 {
+    title:'Starbucks Blonde® Espresso Roast',
     price:'20$',
-    img:'product2.png',
-    description:''   }
+    img:'product2.webp',
+    description:'Savour a Latin American coffee with a bold but mellow flavour and sweet, vibrant notes. Enjoy our lighest espresso roast coffee at home.'   
+}
 ];
 
 

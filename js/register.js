@@ -27,49 +27,52 @@ $(document).ready(function () {
 
 //for register
 
-function store() {
-
-  let name = $('#userName').val();
-  let email = $('#email').val();
-  let password = $('#password').val();
-  let rePassword = $('#rePassword').val();
 
 
-  localStorage.setItem('name', name);
-  localStorage.setItem('email', email);
-  localStorage.setItem('password', password);
-  localStorage.setItem('rePassword', rePassword);
+  let name = $('#userName');
+  let email = $('#email');
+  let password = $('#password');
+  let rePassword = $('#rePassword');
+  let emailSign=$('#emailA');
+  let passSign=$('#passwordB');
 
- 
-}
+let result=$('.snUp > span');
 
-
-function check() {
-
-  // stored data from the register-form
-  let name = $('#userName').val();
-  let email = $('#email').val();
-  let password = $('#password').val();
-  let rePassword = $('#rePassword').val();
+$('.btnB').click(function(){
 
 
-  localStorage.getItem('name', name);
-  localStorage.getItem('email', email);
-  localStorage.getItem('password', password);
-  localStorage.getItem('rePassword', rePassword);
+let oldEmail=localStorage.gitItem('emailSign');
+let oldPassword =localStorage.gitItem('passSign');
+
+
+
+    
+if (emailSign.val() === oldEmail && passSign.val() === oldPassword)
+  {
+     result.html(`Login successful <span> ${emailSign.val()}</span>`);
+  }
+
+  else
+    {
+      result.html(`Login not successful <span> ${emailSign.val()}</span>`);
+    }
+  });
   
 
-}
+$('.btnA').click(function (){
+  localStorage.setItem('name', name.val());
+  localStorage.setItem('email', email.val());
+  localStorage.setItem('password', password.val());
+  localStorage.setItem('rePassword', rePassword.val());
+
+  result.html(`Add <span> ${email.val()}</span>`);
+});
+ 
+
+
 //for login
-function st() {
-
-  email = $('#email').val();
- 
-  password = $('#password').val();
- 
 
 
- localStorage.gitItem('email',email);
- localStorage.gitItem('password', password);
 
-}
+
+

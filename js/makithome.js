@@ -5,7 +5,7 @@ let makeCoffee=[
         step1:'2 shots espresso Starbucks® Holiday Blend by NESPRESSO® or Starbucks® Holiday Blend Ground Coffee',
         step2:'1 Tbsp salted caramel syrup',
         step3:'30 ml whipped cream (optional)',
-        img:'img/IcedCaramel.png'
+        img:'IcedCaramel.png'
     },
     {
         title:'Latte Macchiato',
@@ -13,7 +13,7 @@ let makeCoffee=[
         step1:'2 shots espresso Starbucks® Holiday Blend by NESPRESSO® or Starbucks® Holiday Blend Ground Coffee',
         step2:'1 Tbsp salted caramel syrup',
         step3:'30 ml whipped cream (optional)',
-        img:'img/LATTE_MACCHIATO.png'
+        img:'LATTE_MACCHIATO.png'
     },
     {
         title:'Salted Caramel Espresso',
@@ -21,7 +21,7 @@ let makeCoffee=[
         step1:'2 shots espresso Starbucks® Holiday Blend by NESPRESSO® or Starbucks® Holiday Blend Ground Coffee',
         step2:'1 Tbsp salted caramel syrup',
         step3:'30 ml whipped cream (optional)',
-        img:'img/Caramel Espresso.png'
+        img:'Caramel Espresso.png'
     }
 ]
 $('#cof1').click(()=>{
